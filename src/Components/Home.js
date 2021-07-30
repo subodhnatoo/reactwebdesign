@@ -25,12 +25,13 @@ export const Home = () => {
           >
             Browse Blog
           </button>
-          <button
+          <NavLink
             className="btn btn-sm btn-success"
             style={{ marginRight: "5px" }}
+            exact to="/Videos"
           >
             Browse Video Tutorials
-          </button>
+          </NavLink>
           <NavLink className="btn btn-sm btn-primary" exact to="/ContactMe">Contact Me</NavLink>
         </div>
       </div>

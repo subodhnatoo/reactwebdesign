@@ -11,8 +11,7 @@ export const Navbar = () => {
       <div className="right">
         <input
           type="text"
-          className="form-control"
-          style={{ height: "25px", width: "175px" }}
+          className="form-control navInputs"
           placeholder="Search"
         />
         <button className="btn btn-sm myButtons">Search</button>

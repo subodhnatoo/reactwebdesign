@@ -22,8 +22,8 @@ a {
 }
 
 .right{
-    position: relative;
-    left: 51%;
+    position: absolute;
+    left: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,4 +114,48 @@ a {
 
 .contactDetails{
     font-size: 13px !important;
+}
+
+.videosListContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.videosContainer{
+    width: 28rem;
+    margin-top: 15px;
+}
+
+.videosContainer img{
+    width: 100px;
+}
+
+.videos-card-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.videos-card-text{
+    font-size: 11px;
+    text-align: center;
+}
+
+.videosImage{
+    position: relative;
+    left: 170px;
+}
+
+.videoButtons{
+    position: relative;
+    left: 140px;
+}
+
+.navInputs{
+    height: 25px;
+    width: 175px;
+    font-size: 12px;
 }
