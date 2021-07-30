@@ -3,6 +3,7 @@ import "../Style/Style.css";
 import homeImage from "../Images/home.jpg";
 import codeImage from "../Images/code.jpg";
 import contactImage from "../Images/contact.jpg";
+import {NavLink} from 'react-router-dom'
 
 export const Home = () => {
   return (
@@ -30,7 +31,7 @@ export const Home = () => {
           >
             Browse Video Tutorials
           </button>
-          <button className="btn btn-sm btn-primary">Contact Me</button>
+          <NavLink className="btn btn-sm btn-primary" exact to="/ContactMe">Contact Me</NavLink>
         </div>
       </div>
       <div className="myCards">
